@@ -4,8 +4,8 @@ An arduino based project to make Christmas Light shows that dance to music simpl
 # Research/Sources
 * [How to create your own color organ](http://www.instructables.com/id/How-to-build-your-own-LED-Color-Organ-Arduino-MSGE/ "GreatSottLab insctructable on color organ using Arduino and MSGEQ7")
 * [Just by a shield](https://www.sparkfun.com/products/13116 "SparkFun Spectrum Shield")
-* [Solid state relays](http://a.co/0DaI3VI, "4 Channel solid state relay module (2A per channel)")
-* [split the outlets](http://www.bhg.com/home-improvement/electrical/how-to-install-split-receptacles/, "An example guide on splitting outlets to use a few less duplexes") - see Step 1 especially
+* [Solid state relays](http://a.co/bhj1z2J "4 Channel solid state relay module (2A per channel)")
+* [split the outlets](http://www.bhg.com/home-improvement/electrical/how-to-install-split-receptacles/ "An example guide on splitting outlets to use a few less duplexes") - see Step 1 especially
 
 
 # Resources
