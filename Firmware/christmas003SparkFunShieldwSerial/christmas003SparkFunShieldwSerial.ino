@@ -58,10 +58,20 @@ void setup()
   }
 
   randomSeed(analogRead(4));
-
+  mode = (int)EEPROM.read(mode_addr);
+  if(mode == 0)
+  {
+    mode = default;
+  }
+  
+  delay(1000);
+  Serial.flush();
   digitalWrite(resetPin, LOW);
   digitalWrite(strobePin, HIGH);
-  mode = (int)EEPROM.read(mode_addr);
+  delay(1000);
+  digitalWrite(resetPin, HIGH);
+  delay(500);
+  digitalWrite(resetPin, LOW); 
 }
 
 void loop()
