@@ -16,6 +16,7 @@
 int analogPin = 0;
 int strobePin = 4;
 int resetPin = 5;
+int pusleInPin = 2;
 
 int spectrumValue[7];
 int filter = 0;
@@ -41,6 +42,8 @@ void setup()
   pinMode(strobePin, OUTPUT);
   pinMode(resetPin, OUTPUT);
   pinMode(waste_pin, OUTPUT);
+  
+  pinMode(pusleInPin, INPUT); // set this as input for high impedence.
 
   //  pinMode(ledred, OUTPUT);
   //  pinMode(ledblue, OUTPUT);
